@@ -5,6 +5,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
+import YouTubeIcon from "@mui/icons-material/YouTube";
 
 const variants = {
   show: {
@@ -62,7 +63,7 @@ export default function Intro() {
               );
             })}
           </div>
-          <p className="text-white text-3xl font-bold mx-2">(he/him)</p>
+          <p className="text-white text-2xl  mx-2">(he/him)</p>
         </div>
         <p className="text-3xl font-bold text-white mt-5">
           Incoming CS @ <span className="text-yellow-500">Purdue</span>
@@ -107,6 +108,11 @@ export default function Intro() {
           <div className="transition bg-[#3b3a37] hover:bg-white rounded-lg">
             <a href="https://twitter.com/sidkumars23" target="_blank">
               <TwitterIcon fontSize="large" style={{ color: "#eab308" }} />
+            </a>
+          </div>
+          <div className="transition bg-[#3b3a37] hover:bg-white rounded-lg">
+            <a href="https://youtube.com/@siddhanthkumar" target="_blank">
+              <YouTubeIcon fontSize="large" style={{ color: "#eab308" }} />
             </a>
           </div>
         </div>

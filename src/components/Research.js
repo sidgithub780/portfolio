@@ -1,4 +1,5 @@
 import React from "react";
+import SMILEAbstract from "../assets/SMILEAbstract.pdf";
 
 export default function Research() {
   return (
@@ -15,7 +16,25 @@ export default function Research() {
       <p className="text-white mt-2">
         (ICDE) 2023 39th IEEE International Conference on Data Engineering
       </p>
-      <p className="text-white mt-2">Abstract • Code</p>
+      <p className="text-white mt-2">
+        <a
+          href={SMILEAbstract}
+          target="_blank"
+          rel="noreferrer"
+          className="text-yellow-500"
+        >
+          Abstract
+        </a>{" "}
+        •{" "}
+        <a
+          className="text-yellow-500"
+          href="https://github.com/sidgithub780/updated-mha-tester"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Code
+        </a>
+      </p>
     </div>
   );
 }
