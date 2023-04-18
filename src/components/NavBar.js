@@ -6,9 +6,9 @@ const NavBar = () => {
       <div className="flex text-yellow-500 font-bold text-2xl">SKUMAR.</div>
       <div>
         <ul className="flex text-white">
-          <li className="transition hover:text-yellow-500">Contact</li>
-          <li className="transition hover:text-yellow-500">Work</li>
           <li className="transition hover:text-yellow-500">About Me</li>
+          <li className="transition hover:text-yellow-500">Work</li>
+          <li className="transition hover:text-yellow-500">Contact</li>
         </ul>
       </div>
     </div>
