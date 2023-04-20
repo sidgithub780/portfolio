@@ -1,17 +1,25 @@
 import React from "react";
+import IndividualProject from "./IndividualProject";
+import promPic from "../assets/croppedprompic.jpg";
 
 export default function Projects() {
   return (
     <div className="mt-4">
       <p className="text-yellow-500 text-3xl font-bold">Projects</p>
-      <p className="text-white text-xl mt-4">
-        asdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-        adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
-      </p>
+      <div className="flex flex-row space-x-8">
+        <IndividualProject
+          name="TFTI"
+          description="cripapp"
+          subtitle="social connection"
+          coverImage={promPic}
+        />
+        <IndividualProject
+          name="TFTI"
+          description="cripapp"
+          subtitle="lol"
+          coverImage={promPic}
+        />
+      </div>
     </div>
   );
 }

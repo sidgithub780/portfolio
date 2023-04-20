@@ -121,7 +121,7 @@ export default function Intro() {
         <img
           src={prompPic}
           alt="picture of siddhanth kumar"
-          className="rounded-full object-cover"
+          className="rounded-full object-cover scale-75"
         />
       </div>
     </div>
