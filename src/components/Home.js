@@ -68,7 +68,7 @@ function Home() {
           <div ref={scrollToEducation}>
             <Education />
           </div>
-          <div ref={scrollToSkills}>
+          <div ref={scrollToSkills} className="mb-10">
             <Skills />
           </div>
         </div>

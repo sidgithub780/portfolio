@@ -9,13 +9,7 @@ export default function Work() {
       <div>
         <p className="text-yellow-500 text-5xl font-bold">Work</p>
         <p className="text-white text-xl mt-4">
-          asdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad
+          I enjoy doing research alongside practical coding projects.
         </p>
       </div>
       <Research />

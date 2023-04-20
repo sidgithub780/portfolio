@@ -1,6 +1,6 @@
 import React from "react";
 import IndividualProject from "./IndividualProject";
-import promPic from "../assets/croppedprompic.jpg";
+
 import TFTIpic from "../assets/tfti_logo.png";
 import melanomorelogo from "../assets/melanomorelogo.png";
 

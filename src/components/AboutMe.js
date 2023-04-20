@@ -7,13 +7,16 @@ export default function AboutMe() {
       <div>
         <p className="text-yellow-500 text-5xl font-bold">About Me</p>
         <p className="text-white text-xl mt-4">
-          asdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-          eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          adasdfsaLorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-          do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-          ad
+          Hi! I'm a passionate highschooler interested in technology, software
+          engineering, entrepreneurship, and human computer interaction. I hope
+          to innovate developments in the tech space and lead people to benefit
+          the world through software. My work will be documented on this page.
+        </p>
+        <p className="text-white text-xl mt-4">
+          In my free time I enjoy watching movies, playing volleyball, and of
+          course writing code. Right now especially, I love going on late night
+          drives. I'm a collaborative person and am always looking for
+          opportunities to learn and grow alongside others.
         </p>
       </div>
     </div>
