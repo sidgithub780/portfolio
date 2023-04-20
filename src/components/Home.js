@@ -3,11 +3,13 @@ import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 import Work from "./Work";
 import Contact from "./Contact";
+import Education from "./Education";
 
 function Home() {
   const scrollToContact = useRef();
   const scrollToWork = useRef();
   const scrollToAbout = useRef();
+  const scrollToEducation = useRef();
 
   return (
     <>
@@ -35,6 +37,15 @@ function Home() {
             </button>
             <button
               onClick={() =>
+                scrollToEducation.current.scrollIntoView({
+                  behavior: "smooth",
+                })
+              }
+            >
+              <li className="transition hover:text-yellow-500">Education</li>
+            </button>
+            <button
+              onClick={() =>
                 scrollToContact.current.scrollIntoView({
                   behavior: "smooth",
                 })
@@ -53,6 +64,9 @@ function Home() {
           </div>
           <div ref={scrollToWork}>
             <Work />
+          </div>
+          <div ref={scrollToEducation}>
+            <Education />
           </div>
           <div ref={scrollToContact}>
             <Contact />

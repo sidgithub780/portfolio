@@ -2,26 +2,40 @@ import React from "react";
 
 export default function IndividualProject({
   name,
-  description,
   subtitle,
   coverImage,
+  link,
+  demo,
 }) {
   return (
     <div className="border-yellow-500 border-2 rounded-xl bg-[#242321] text-white mt-4 p-4 w-1/2">
-      <div className="flex flex-row bg-red-500 justify-center font-bold text-2xl">
+      <div className="flex flex-row  justify-center font-bold text-2xl">
         {name}
       </div>
-      <div className="flex flex-row bg-blue-200 justify-center text-xl font-style: italic">
+      <div className="flex flex-row justify-center text-xl font-style: italic">
         {subtitle}
       </div>
+      <div className="flex flex-row justify-center text-xl">
+        <a href={link} target="_blank" className="text-yellow-500">
+          Code
+        </a>
 
-      {description}
-
-      <img
-        src={coverImage}
-        alt="hey"
-        className="rounded-xl object-cover scale-80"
-      />
+        {demo != null ? (
+          <>
+            <>•</>
+            <a href={demo} target="_blank" className="text-yellow-500">
+              Demo
+            </a>
+          </>
+        ) : null}
+      </div>
+      {coverImage != null ? (
+        <img
+          src={coverImage}
+          alt="hey"
+          className="rounded-xl object-cover scale-80"
+        />
+      ) : null}
     </div>
   );
 }
