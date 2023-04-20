@@ -2,11 +2,11 @@ import React, { useRef } from "react";
 import Intro from "./Intro";
 import AboutMe from "./AboutMe";
 import Work from "./Work";
-import Contact from "./Contact";
+import Skills from "./Skills";
 import Education from "./Education";
 
 function Home() {
-  const scrollToContact = useRef();
+  const scrollToSkills = useRef();
   const scrollToWork = useRef();
   const scrollToAbout = useRef();
   const scrollToEducation = useRef();
@@ -46,12 +46,12 @@ function Home() {
             </button>
             <button
               onClick={() =>
-                scrollToContact.current.scrollIntoView({
+                scrollToSkills.current.scrollIntoView({
                   behavior: "smooth",
                 })
               }
             >
-              <li className="transition hover:text-yellow-500">Contact</li>
+              <li className="transition hover:text-yellow-500">Skills</li>
             </button>
           </ul>
         </div>
@@ -68,8 +68,8 @@ function Home() {
           <div ref={scrollToEducation}>
             <Education />
           </div>
-          <div ref={scrollToContact}>
-            <Contact />
+          <div ref={scrollToSkills}>
+            <Skills />
           </div>
         </div>
       </div>
