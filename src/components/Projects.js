@@ -39,6 +39,13 @@ export default function Projects() {
           link="https://github.com/sidgithub780/EarTime"
           demo={null}
         />
+        <IndividualProject
+          name="Portfolio website"
+          subtitle="The website you're seeing"
+          coverImage={null}
+          link="https://github.com/sidgithub780/portfolio"
+          demo={null}
+        />
       </div>
     </div>
   );
