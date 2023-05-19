@@ -1,6 +1,7 @@
 import React from "react";
 import Research from "./Research";
 import Projects from "./Projects";
+import HackathonProjects from "./HackathonProjects";
 
 export default function Work() {
   return (
@@ -14,6 +15,7 @@ export default function Work() {
       </div>
       <Research />
       <Projects />
+      <HackathonProjects />
     </div>
   );
 }

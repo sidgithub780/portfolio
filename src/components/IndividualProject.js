@@ -6,9 +6,15 @@ export default function IndividualProject({
   coverImage,
   link,
   demo,
+  hackathon,
+  devpost,
+  placement,
 }) {
   return (
     <div className="border-yellow-500 border-2 rounded-xl bg-[#242321] text-white mt-4 p-4 w-1/2">
+      <div className="flex flex-row  justify-center font-bold text-2xl text-yellow-500">
+        {hackathon}
+      </div>
       <div className="flex flex-row  justify-center font-bold text-2xl">
         {name}
       </div>
@@ -28,6 +34,13 @@ export default function IndividualProject({
             </a>
           </>
         ) : null}
+
+        <>
+          <>•</>
+          <a href={devpost} target="_blank" className="text-yellow-500">
+            Devpost
+          </a>
+        </>
       </div>
       {coverImage != null ? (
         <img
@@ -36,6 +49,9 @@ export default function IndividualProject({
           className="rounded-xl object-cover scale-80"
         />
       ) : null}
+      <div className="flex flex-row  justify-center font-bold text-2xl text-yellow-500 mt-4">
+        {placement}
+      </div>
     </div>
   );
 }
