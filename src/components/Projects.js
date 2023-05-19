@@ -15,6 +15,7 @@ export default function Projects() {
           coverImage={TFTIpic}
           link="https://github.com/sidgithub780/rsvper"
           demo="https://youtu.be/YY2IEuKwg0w"
+          devpost={null}
         />
         <IndividualProject
           name="Melanomore"
@@ -22,6 +23,7 @@ export default function Projects() {
           coverImage={melanomorelogo}
           link="https://github.com/sidgithub780/melanomore"
           demo="https://youtu.be/jP2KgZb76sA"
+          devpost={null}
         />
       </div>
       <div className="flex flex-row space-x-8">
@@ -31,6 +33,7 @@ export default function Projects() {
           coverImage={null}
           link="https://github.com/sidgithub780/food"
           demo="https://drive.google.com/file/d/1gr9tuH7WsLm1cd9L31yPIWXrsC6Zvcxr/view?usp=sharing"
+          devpost={null}
         />
         <IndividualProject
           name="EarTime"
@@ -38,6 +41,7 @@ export default function Projects() {
           coverImage={null}
           link="https://github.com/sidgithub780/EarTime"
           demo={null}
+          devpost={null}
         />
         <IndividualProject
           name="Portfolio website"
@@ -45,6 +49,7 @@ export default function Projects() {
           coverImage={null}
           link="https://github.com/sidgithub780/portfolio"
           demo={null}
+          devpost={null}
         />
       </div>
     </div>

@@ -35,12 +35,14 @@ export default function IndividualProject({
           </>
         ) : null}
 
-        <>
-          <>•</>
-          <a href={devpost} target="_blank" className="text-yellow-500">
-            Devpost
-          </a>
-        </>
+        {devpost != null ? (
+          <>
+            <>•</>
+            <a href={devpost} target="_blank" className="text-yellow-500">
+              Devpost
+            </a>
+          </>
+        ) : null}
       </div>
       {coverImage != null ? (
         <img
