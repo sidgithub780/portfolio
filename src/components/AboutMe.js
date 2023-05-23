@@ -12,12 +12,6 @@ export default function AboutMe() {
           to innovate developments in the tech space and lead people to benefit
           the world through software. My work will be documented on this page.
         </p>
-        <p className="text-white text-xl mt-4">
-          In my free time I enjoy watching movies, playing volleyball, and of
-          course writing code. Right now especially, I love going on late night
-          drives. I'm a collaborative person and am always looking for
-          opportunities to learn and grow alongside others.
-        </p>
       </div>
     </div>
   );

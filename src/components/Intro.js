@@ -23,21 +23,10 @@ const variants = {
 };
 
 export default function Intro() {
-  const words = ["vocal", "resilient", "positive", "driven", "passionate"];
-  const [adjective, setAdjective] = useState("communicative");
-
-  useEffect(() => {
-    let count = 0;
-    const interval = setInterval(() => {
-      count = (count + 1) % words.length;
-      setAdjective(words[count]);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
   return (
     <div className="flex flex-row0 mt-20 max-w-full">
       <div>
-        <p className="text-white font-bold text-3xl">Yo! I'm... </p>
+        <p className="text-white font-bold text-3xl">Hi! I'm... </p>
         <div className="flex mt-5 ">
           {"Siddhanth".split("").map((letter, index) => {
             return (
@@ -68,23 +57,9 @@ export default function Intro() {
         <p className="text-3xl font-bold text-white mt-5">
           Incoming CS @ <span className="text-yellow-500">Purdue</span>
         </p>
-        <p className="text-3xl font-bold text-white mt-5">
-          I am a{" "}
-          <motion.span
-            className="text-yellow-500"
-            key={adjective}
-            variants={variants}
-            animate={"show"}
-            initial="hide"
-          >
-            {adjective}
-          </motion.span>{" "}
-        </p>
-        <p className="text-2xl font-bold text-white mt-1">
-          -CS enthusiast {<br />} -high schooler {<br />} -aspiring SWE
-        </p>
+
         <p className="mt-4 text-2xl font-bold text-yellow-500">
-          kumar701[at]purdue[dot]edu
+          kumar701@purdue.edu
         </p>
         <div className="flex flex-row mt-5">
           <div className="transition bg-[#3b3a37] hover:bg-white rounded-lg">

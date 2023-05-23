@@ -11,7 +11,7 @@ export default function IndividualProject({
   placement,
 }) {
   return (
-    <div className="border-yellow-500 border-2 rounded-xl bg-[#242321] text-white mt-4 p-4 w-1/2">
+    <div className="border-yellow-500 border-2 rounded-xl bg-[#242321] text-white mt-4 p-4">
       <div className="flex flex-row  justify-center font-bold text-2xl text-yellow-500">
         {hackathon}
       </div>
@@ -44,13 +44,7 @@ export default function IndividualProject({
           </>
         ) : null}
       </div>
-      {coverImage != null ? (
-        <img
-          src={coverImage}
-          alt="hey"
-          className="rounded-xl object-cover scale-80"
-        />
-      ) : null}
+
       <div className="flex flex-row  justify-center font-bold text-2xl text-yellow-500 mt-4">
         {placement}
       </div>

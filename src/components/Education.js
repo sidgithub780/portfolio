@@ -17,7 +17,7 @@ export default function Education() {
       <ResearchComponent
         title="Physics 77: Introduction to Computational Physics"
         description="Introductory scientific programming in Python with examples from physics. Topics include: visualization, statistics and probability, regression, numerical integration, simulation, data modeling, function approximation, and algebraic systems. Recommended for freshman physics majors."
-        school="UC Berkeley"
+        school="UC Berkeley Summer Session"
         abstractLink={null}
         codeLink="https://github.com/sidgithub780/Physics-77"
       />
