@@ -24,7 +24,7 @@ const variants = {
 
 export default function Intro() {
   return (
-    <div className="flex flex-row0 mt-20 max-w-full">
+    <div className="flex flex-row0 mt-20 max-w-full justify-between">
       <div>
         <p className="text-white font-bold text-3xl">Hi! I'm... </p>
         <div className="flex mt-5 ">
@@ -92,11 +92,11 @@ export default function Intro() {
           </div>
         </div>
       </div>
-      <div>
+      <div className="w-1/2">
         <img
           src={prompPic}
           alt="picture of siddhanth kumar"
-          className="rounded-full object-cover scale-75"
+          className="rounded-full object-cover"
         />
       </div>
     </div>
