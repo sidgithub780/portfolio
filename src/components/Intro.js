@@ -1,11 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
-import prompPic from "../assets/croppedprompic.jpg";
+
 import InstagramIcon from "@mui/icons-material/Instagram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
+
+import croppedbestprompic from "../assets/croppedbestprompic.jpg";
 
 const variants = {
   show: {
@@ -24,23 +26,30 @@ const variants = {
 
 export default function Intro() {
   return (
-    <div className="flex flex-row0 mt-20 max-w-full justify-between">
-      <div>
-        <p className="text-white font-bold text-3xl">Hi! I'm... </p>
-        <div className="flex mt-5 ">
+    <div className="flex flex-col md:flex-row mt-20 max-w-full justify-between">
+      <div className="md:w-1/2">
+        <img
+          src={croppedbestprompic}
+          alt="picture of Siddhanth Kumar"
+          className="rounded-full object-cover w-full md:w-auto"
+        />
+      </div>
+      <div className="md:w-1/2 md:pl-8">
+        <p className="text-white font-bold text-3xl">Hi! I'm...</p>
+        <div className="flex mt-5">
           {"Siddhanth".split("").map((letter, index) => {
             return (
               <span
                 key={index}
-                className=" hover:-mt-2 transition-all duration-500 hover:duration-100 text-yellow-500 text-3xl sm:text-7xl font-bold hover:text-white"
+                className="hover:-mt-2 transition-all duration-500 hover:duration-100 text-yellow-500 text-3xl sm:text-7xl font-bold hover:text-white"
               >
                 {letter}
               </span>
             );
           })}
         </div>
-        <div className="flex flex-row">
-          <div className="flex ">
+        <div className="flex flex-row mt-2 md:mt-0">
+          <div className="flex">
             {"Kumar".split("").map((letter, index) => {
               return (
                 <span
@@ -52,12 +61,11 @@ export default function Intro() {
               );
             })}
           </div>
-          <p className="text-white text-2xl  mx-2">(he/him)</p>
+          <p className="text-white text-2xl md:mx-2">(he/him)</p>
         </div>
         <p className="text-3xl font-bold text-white mt-5">
           Incoming CS @ <span className="text-yellow-500">Purdue</span>
         </p>
-
         <p className="mt-4 text-2xl font-bold text-yellow-500">
           kumar701@purdue.edu
         </p>
@@ -91,13 +99,6 @@ export default function Intro() {
             </a>
           </div>
         </div>
-      </div>
-      <div className="w-1/2">
-        <img
-          src={prompPic}
-          alt="picture of siddhanth kumar"
-          className="rounded-full object-cover"
-        />
       </div>
     </div>
   );
