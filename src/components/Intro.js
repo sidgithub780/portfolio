@@ -71,7 +71,7 @@ export default function Intro() {
         </p>
         <div className="flex flex-row mt-5">
           <div className="transition bg-[#3b3a37] hover:bg-white rounded-lg">
-            <a href="https://www.instagram.com/sxddhxnth/" target="_blank">
+            <a href="https://www.instagram.com/siddh4nth/" target="_blank">
               <InstagramIcon fontSize="large" style={{ color: "#eab308" }} />
             </a>
           </div>
