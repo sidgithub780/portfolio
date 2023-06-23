@@ -4,7 +4,7 @@ import AboutMe from "./AboutMe";
 import Work from "./Work";
 import Skills from "./Skills";
 import Education from "./Education";
-import resume from "../assets/sksweresume_v2.pdf";
+import resume from "../assets/sksweresume_v3.pdf";
 
 function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
