@@ -1,5 +1,6 @@
 import React from "react";
 import ResearchComponent from "./ResearchComponent";
+import capstone from "../assets/capstone.pdf";
 
 export default function Education() {
   return (
@@ -18,7 +19,7 @@ export default function Education() {
         title="Physics 77: Introduction to Computational Physics"
         description="Introductory scientific programming in Python with examples from physics. Topics include: visualization, statistics and probability, regression, numerical integration, simulation, data modeling, function approximation, and algebraic systems. Recommended for freshman physics majors."
         school="UC Berkeley Summer Session"
-        abstractLink={null}
+        abstractLink={capstone}
         codeLink="https://github.com/sidgithub780/Physics-77"
       />
     </div>
