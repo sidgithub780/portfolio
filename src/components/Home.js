@@ -47,27 +47,31 @@ function Home() {
                 <li className="transition hover:text-yellow-500">Skills</li>
               </button>
 
-              <li className="transition hover:text-yellow-500">
-                <a
-                  href="https://devpost.com/siddhanth-kumar?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-yellow-500"
-                >
-                  Devpost
-                </a>
-              </li>
+              <button>
+                <li className="transition hover:text-yellow-500">
+                  <a
+                    href="https://devpost.com/siddhanth-kumar?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-yellow-500"
+                  >
+                    Devpost
+                  </a>
+                </li>
+              </button>
 
-              <li className="transition hover:text-yellow-500">
-                <a
-                  href={resume}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-yellow-500"
-                >
-                  Resume
-                </a>
-              </li>
+              <button>
+                <li className="transition hover:text-yellow-500">
+                  <a
+                    href={resume}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="hover:text-yellow-500"
+                  >
+                    Resume
+                  </a>
+                </li>
+              </button>
             </ul>
           </div>
           <button
