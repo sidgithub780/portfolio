@@ -4,7 +4,7 @@ import AboutMe from "./AboutMe";
 import Work from "./Work";
 import Skills from "./Skills";
 import Education from "./Education";
-import resume from "../assets/sksweresume_v3.pdf";
+import resume from "../assets/bestresume.pdf";
 
 function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -46,6 +46,17 @@ function Home() {
               <button onClick={() => scrollToSection(scrollToSkills)}>
                 <li className="transition hover:text-yellow-500">Skills</li>
               </button>
+
+              <li className="transition hover:text-yellow-500">
+                <a
+                  href="https://devpost.com/siddhanth-kumar?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="hover:text-yellow-500"
+                >
+                  Devpost
+                </a>
+              </li>
 
               <li className="transition hover:text-yellow-500">
                 <a

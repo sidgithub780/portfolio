@@ -6,8 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import YouTubeIcon from "@mui/icons-material/YouTube";
-
-import croppedbestprompic from "../assets/croppedbestprompic.jpg";
+import tcbooster from "../assets/tcbooster.jpg";
 
 const variants = {
   show: {
@@ -26,16 +25,18 @@ const variants = {
 
 export default function Intro() {
   return (
-    <div className="flex flex-col md:flex-row mt-20 max-w-full justify-between">
-      <div className="md:w-1/2">
+    <div className="flex flex-col md:flex-row mt-32 max-w-full justify-center">
+      <div className="md:w-2/5 md:flex md:items-center ">
         <img
-          src={croppedbestprompic}
+          src={tcbooster}
           alt="picture of Siddhanth Kumar"
-          className="rounded-full object-cover w-full md:w-auto"
+          className="rounded-full object-cover w-10/12 h-full md:w-10/12 max-w-full"
+          style={{
+            boxShadow: "0 0 30px rgba(239, 202, 97, 0.9)", // Yellow glow effect
+          }}
         />
       </div>
-      <div className="md:w-1/2 md:pl-8">
-        <p className="text-white font-bold text-3xl">Hi! I'm...</p>
+      <div className="md:w-2/5 md:pl-8 md:flex md:flex-col justify-center">
         <div className="flex mt-5">
           {"Siddhanth".split("").map((letter, index) => {
             return (
@@ -64,7 +65,7 @@ export default function Intro() {
           <p className="text-white text-2xl md:mx-2">(he/him)</p>
         </div>
         <p className="text-3xl font-bold text-white mt-5">
-          Incoming CS @ <span className="text-yellow-500">Purdue</span>
+          CS @ <span className="text-yellow-500">Purdue</span>
         </p>
         <p className="mt-4 text-2xl font-bold text-yellow-500">
           kumar701@purdue.edu

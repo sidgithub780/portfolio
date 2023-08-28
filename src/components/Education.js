@@ -22,6 +22,11 @@ export default function Education() {
         abstractLink={capstone}
         codeLink="https://github.com/sidgithub780/Physics-77"
       />
+      <ResearchComponent
+        title="CS 18000: Object Oriented Programming I"
+        description="This course covers problem-solving, algorithm implementation in a high-level language, using conditionals and loops, debugging, data collections, search and sort methods, problem decomposition, object-oriented programming, subclassing, handling exceptions, creating GUIs, file data manipulation, abstract data types, and glimpses of other CS topics."
+        school="Purdue University"
+      />
     </div>
   );
 }
