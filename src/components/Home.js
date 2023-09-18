@@ -4,7 +4,6 @@ import AboutMe from "./AboutMe";
 import Work from "./Work";
 import Skills from "./Skills";
 import Education from "./Education";
-import resume from "../assets/bestresume.pdf";
 
 function Home() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -55,17 +54,6 @@ function Home() {
                   className="hover:text-yellow-500"
                 >
                   Devpost
-                </a>
-              </li>
-
-              <li className="transition hover:text-yellow-500">
-                <a
-                  href={resume}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="hover:text-yellow-500"
-                >
-                  Resume
                 </a>
               </li>
             </ul>
