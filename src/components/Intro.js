@@ -65,6 +65,9 @@ export default function Intro() {
           <p className="text-white text-2xl md:mx-2">(he/him)</p>
         </div>
         <p className="text-3xl font-bold text-white mt-5">
+          SWE Intern @ <span className="text-yellow-500">Panasonic</span>
+        </p>
+        <p className="text-3xl font-bold text-white mt-5">
           CS @ <span className="text-yellow-500">Purdue</span>
         </p>
         <p className="mt-4 text-2xl font-bold text-yellow-500">
